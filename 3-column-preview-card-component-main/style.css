@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  height: 100vh;
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  height: 55%;
+  width: 25%;
+  padding-left: 3rem;
+}
+article p {
+  color: rgba(255, 255, 255, 0.75);
+  padding-top: 3rem;
+  width: 70%;
+  text-align: left;
+  word-wrap: break-word;
+}
+article h2 {
+  font-family: "Big Shoulders Display";
+  color: #f2f2f2;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 3rem;
+  font-size: 3rem;
+}
+article button {
+  background-color: #f2f2f2;
+  border: none;
+  margin-top: 10rem;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+}
+article img {
+  padding-top: 3rem;
+}
+
+.card1 {
+  background-color: #e38826;
+}
+.card1 button {
+  color: #e38826;
+}
+
+.card2 {
+  background-color: #006970;
+}
+.card2 button {
+  color: #006970;
+}
+
+.card3 {
+  background-color: #004241;
+}
+.card3 button {
+  color: #004241;
+}/*# sourceMappingURL=style.css.map */

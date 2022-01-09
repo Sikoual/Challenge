@@ -1,0 +1,264 @@
+.header-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(img/Layer1.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35vh;
+  background-color: #0a3347;
+}
+.header-bg h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  color: whitesmoke;
+}
+.header-bg h3 {
+  font-size: 1.4rem;
+  color: whitesmoke;
+  font-weight: 300;
+  padding: 1rem 0;
+}
+.header-bg p {
+  color: #b1b1b1;
+  font-weight: 300;
+  width: 30%;
+  text-align: center;
+  padding: 1rem 0;
+}
+.header-bg hr {
+  border: 0.1px solid gray;
+  height: 0.1px;
+  width: 30%;
+}
+.header-bg button {
+  border: 1px solid whitesmoke;
+  background-color: #0a3347;
+  color: whitesmoke;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.team {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+.team hr {
+  border: 0.5px solid #b8b6b6;
+  width: 30%;
+}
+.team p {
+  margin-bottom: 5rem;
+}
+
+.team-description {
+  margin-top: 10rem;
+  font-size: 1.3rem;
+  width: 50%;
+  text-align: center;
+  color: #797979;
+}
+
+.team-profil {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.team-profil h4 {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.team-profil p {
+  color: #858484;
+}
+.team-profil img {
+  border: 5px solid white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 50%;
+}
+
+.portfolio {
+  min-height: 50vh;
+  background-color: #3fad88;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio h2 {
+  color: whitesmoke;
+  font-size: 2.5rem;
+}
+.portfolio p {
+  color: #dddddd;
+  font-size: 1.4rem;
+  margin-bottom: 10rem;
+}
+.portfolio button {
+  margin-top: 5rem;
+  background-color: #3fad88;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  color: whitesmoke;
+}
+
+.img-hover {
+  opacity: 0.5;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  background-color: #23313a;
+}
+.contact h1 {
+  color: whitesmoke;
+  font-size: 2.5rem;
+}
+.contact p {
+  color: #dddddd;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact input {
+  margin: 0.5rem 0;
+  border-radius: 20px;
+  padding: 0.5rem 7rem;
+}
+.contact textarea {
+  border-radius: 20px;
+  margin-bottom: 0.5rem;
+}
+.contact button {
+  background-color: #23313a;
+  color: whitesmoke;
+  padding: 0.5rem 5rem;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.footer {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #23313a;
+  color: whitesmoke;
+}
+
+.rs {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rs h3 {
+  margin-left: 2rem;
+}
+
+input {
+  text-align: center;
+}
+
+textarea::-moz-placeholder {
+  text-align: center;
+}
+
+textarea:-ms-input-placeholder {
+  text-align: center;
+}
+
+textarea::placeholder {
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.paint {
+  margin-left: 20rem;
+  border: 0.5px solid gray;
+  border-radius: 50%;
+}
+.paint img {
+  padding: 0.5rem;
+}
+
+.nav-links {
+  flex: 2 1 30rem;
+}
+.nav-links ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5rem;
+}
+.nav-links li {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: whitesmoke;
+  margin-right: 3rem;
+}
+
+.header-top {
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a3347;
+  padding: 1rem;
+}
+
+#active {
+  background-color: #19445c80;
+  padding: 1rem;
+  color: #c0c0c0;
+}/*# sourceMappingURL=style.css.map */

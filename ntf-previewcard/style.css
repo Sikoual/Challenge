@@ -1,0 +1,76 @@
+body {
+  box-sizing: border-box;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(216, 50%, 16%);
+  width: 450px;
+  border: 0px solid black;
+  border-radius: 12px;
+}
+.container img {
+  border: 0px solid black;
+  border-radius: 10px;
+  margin: 25px 5px 10px 25px;
+}
+.eth {
+  float: left;
+  color: hsl(178, 100%, 50%);
+  font-weight: 700;
+}
+.eth::before {
+  content: url(images/icon-ethereum.svg);
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.date {
+  float: right;
+  margin-right: 25px;
+}
+.date::before {
+  content: url(images/icon-clock.svg);
+  padding-right: 5px;
+  vertical-align: middle;
+}
+hr {
+  clear: both;
+  border: none;
+  height: 0.5px;
+  background-color: hsl(215, 32%, 27%);
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  margin-left: 25px;
+}
+p {
+  margin-left: 25px;
+  color: hsl(215, 51%, 70%);
+}
+footer {
+  color: hsl(215, 51%, 70%);
+  margin-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+footer::before {
+  display: inline-block;
+  content: " ";
+  background-image: url(images/image-avatar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 40px;
+  vertical-align: middle;
+}
+footer span {
+  color: hsl(0, 0%, 100%);
+}

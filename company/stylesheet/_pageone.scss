@@ -1,0 +1,91 @@
+.header-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(img/Layer1.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35vh;
+  background-color: #0a3347;
+  h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    color: whitesmoke;
+  }
+  h3 {
+    font-size: 1.4rem;
+    color: whitesmoke;
+    font-weight: 300;
+    padding: 1rem 0;
+  }
+  p {
+    color: rgb(177, 177, 177);
+    font-weight: 300;
+    width: 30%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  hr {
+    border: 0.1px solid gray;
+    height: 0.1px;
+    width: 30%;
+  }
+  button {
+    border: 1px solid whitesmoke;
+    background-color: #0a3347;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+}
+.team {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+  hr {
+    border: 0.5px solid rgb(184, 182, 182);
+    width: 30%;
+  }
+  p {
+    margin-bottom: 5rem;
+  }
+}
+.team-description {
+  margin-top: 10rem;
+  font-size: 1.3rem;
+  width: 50%;
+  text-align: center;
+  color: rgb(121, 121, 121);
+}
+.team-profil {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1rem;
+  h4 {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+  p {
+    color: rgb(133, 132, 132);
+  }
+  img {
+    border: 5px solid white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+  }
+}

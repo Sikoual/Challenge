@@ -1,0 +1,54 @@
+@import "pageone";
+@import "pagetwo";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+li {
+  list-style-type: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.paint {
+  margin-left: 20rem;
+  border: 0.5px solid gray;
+  border-radius: 50%;
+  img {
+    padding: 0.5rem;
+  }
+}
+.nav-links {
+  flex: 2 1 30rem;
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5rem;
+  }
+  li {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-right: 3rem;
+  }
+}
+.header-top {
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a3347;
+  padding: 1rem;
+}
+#active {
+  background-color: #19445c80;
+  padding: 1rem;
+  color: #c0c0c0;
+}

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+$mainbackgroundcolor: hsl(233, 47%, 7%);
+$titlecolor: white;
+$contentcolor: hsla(0, 0%, 100%, 0.75);
+$statscolor: hsla(0, 0%, 100%, 0.6);
+
+%padding {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+  background: $mainbackgroundcolor;
+  font-family: Inter;
+}
+h1 {
+  color: $titlecolor;
+}
+p {
+  color: $contentcolor;
+}
+.subtitle {
+  text-transform: uppercase;
+  color: $statscolor;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+.stats {
+  font-weight: bold;
+  color: $titlecolor;
+}
+main {
+  border: 0px solid black;
+  border-radius: px;
+  background: hsl(244, 38%, 16%);
+}
+.importantWord {
+  color: hsl(277, 64%, 61%);
+}
+
+/* Media Mobile */
+
+@media screen and (max-width: 375px) {
+  main {
+    width: 350px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    word-wrap: break-word;
+    text-align: center;
+    padding: 0 40px;
+  }
+  main img {
+    overflow: hidden;
+    width: 400px;
+    background-image: red;
+    opacity: 0.6;
+  }
+  .stats {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    margin-top: 50px;
+  }
+  .keynumber {
+    font-size: 22px;
+    color: white;
+  }
+  .img {
+    width: 375px;
+    height: 294px;
+    background-color: purple;
+  }
+}
+@media screen and (min-width: 376px) {
+  .img {
+    float: right;
+    height: 480px;
+    background-color: hsl(277, 64%, 61%);
+  }
+  h1 {
+    width: 350px;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+  p {
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 400px;
+    line-height: 30px;
+  }
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+  }
+  main {
+    height: 480px;
+  }
+  .keynumber {
+    font-size: 26px;
+    color: white;
+  }
+  main img {
+    opacity: 0.5;
+    overflow: hidden;
+  }
+}
