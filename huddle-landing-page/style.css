@@ -1,0 +1,186 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+body{
+    background-color: #674AB1;
+}
+.bg{
+    height: 250px;
+    background-image: url("images/bg-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo{
+    width: 150px;
+    position: relative;
+    top:30px;
+    left:25px;
+}
+.header-img{
+    width: 80%;
+    position: absolute;
+    top:90px;
+    left:35px
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+main h1{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+main p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+}
+main button{
+    margin-top: 20px;
+    background: white;
+    color: #674AB1 ;
+    border: none;
+    border-radius: 999px;
+    padding: 5px 30px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rs {
+    width: 50%;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rs i{
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 7px 11px;
+}
+
+@media only screen and (min-width : 321px) and (max-device-width : 391px) {
+    main{
+        margin-top: 150px;
+    }
+    .header-img{
+        top: 150px;
+    }
+    .rs{
+        margin: 50px auto 0 auto;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+    main button{
+        font-size: 18px;
+        padding: 5px 50px;
+    }
+}
+@media only screen and (min-width : 391px) and (max-width : 429px) {
+   main{
+       margin-top: 200px;
+   }
+    .header-img{
+        top:200px;
+    }
+    main h1{
+        font-size: 30px;
+    }
+    main p{
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    .logo{
+        width: 200px;
+    }
+    main button{
+        font-size: 22px;
+        padding: 10px 100px;
+        margin-top: 40px;
+    }
+    .rs i {
+        margin-top: 20px;
+        font-size: 25px;
+        padding: 9px 15px;
+    }
+}
+@media only screen and (min-width : 730px){
+    main{
+        margin-top: 300px;
+    }
+    .header-img{
+        top:140px;
+        margin-left: 40px;
+    }
+    main h1{
+        font-size: 35px;
+    }
+    main p{
+        font-size: 22px;
+        line-height: 1.6;
+    }
+    .logo{
+        width: 200px;
+    }
+    main button{
+        font-size: 22px;
+        padding: 10px 100px;
+        margin-top: 40px;
+    }
+    .rs i {
+        margin-top: 20px;
+        font-size: 25px;
+        padding: 9px 15px;
+    }
+    .rs{
+        width: 30%;
+    }
+}
+@media only screen and (min-width : 1000px){
+    main{
+        margin-top: 500px;
+    }
+}
+@media only screen and (min-width : 1440px){
+  .bg{
+      background-image: url("images/bg-desktop.svg");
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+  }
+    .header-img{
+        width: 700px;
+    }
+    main{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

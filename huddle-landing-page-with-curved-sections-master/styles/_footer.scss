@@ -1,0 +1,130 @@
+.footer-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15rem 0;
+  h2{
+    font-size: 3rem;
+    color: var(--titleColor);
+    @include mobile{
+      text-align: center;
+    }
+  }
+    button{
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      background: hsl(322, 100%, 66%);
+      border: none;
+      border-radius: 999px;
+      padding: 2rem 7rem;
+      margin: 2rem 0 5rem 0;
+      transition: background 0.3s ease-in-out;
+      &:hover{
+        background: hsl(321, 100%, 78%);
+      }
+    }
+}
+footer{
+  height: 150px;
+  background: url("../images/bg-section-top-desktop-2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include mobile{
+    background-position: center;
+  }
+}
+.footer-description{
+  min-height: 60vh;
+  background: #012630;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #FFFFFF;
+  @include mobile{
+    flex-direction: column;
+  }
+}
+.contact{
+  width: 30%;
+  @include mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 70%;
+    margin: 0 auto;
+  }
+  p{
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    width: 60%;
+    @include mobile{
+      width: 100%;
+    }
+  }
+}
+.tel,.email{
+  display: flex;
+  align-items: center;
+  img{
+    margin:1rem 2rem 0 0;
+    width: 15px;
+    height: 15px;
+  }
+}
+.newsletter{
+  width: 30%;
+  @include mobile{
+    width: 70%;
+    margin: 0 auto;
+  }
+  h2{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    @include mobile{
+      margin: 2rem 0;
+    }
+  }
+  p{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    width: 50%;
+    @include mobile{
+      width: 100%;
+    }
+  }
+}
+.subscribe{
+  input{
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+  }
+  button{
+    border: none;
+    background: hsl(322, 100%, 66%);
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    &:hover{
+      background: hsl(321, 100%, 78%);
+    }
+    @include mobile{
+      margin-top: 2rem;
+      margin-left: 0;
+      padding: 1rem 8rem;
+    }
+  }
+}
+.rs{
+  margin-top: 5rem;
+  img{
+    width: 30px;
+    height: 30px;
+  }
+}

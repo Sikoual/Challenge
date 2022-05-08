@@ -1,0 +1,184 @@
+:root{
+ --colorTitle: #3B2654;
+}
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    z-index: -1;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.left-gradient{
+    position: absolute;
+    top: 0;
+    left: -120px;
+    min-height: 90vh;
+    width: 41vw;
+    background: linear-gradient(to bottom, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.container{
+    margin-left: 50vw;
+    width: 55vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    width: 70%;
+}
+.description h1{
+    font-size: 4rem;
+    color: hsl(271, 36%, 24%);
+    margin-bottom: 2rem;
+}
+.description p{
+    color: hsl(270, 7%, 64%);
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+.phone{
+    position: absolute;
+    top: 100px;
+    left: 420px;
+    height: 650px;
+    width: 300px;
+    background: #FFF;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 2;
+}
+.top{
+    height: 80px;
+    width: 90%;
+    margin-top: 1.3rem;
+    margin-left: 5%;
+    background: linear-gradient(to left, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius: 20px 20px 5px 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top img{
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    margin-left: -40px;
+}
+.fa-angle-left,.fa-ellipsis-vertical{
+    color: white;
+}
+.fa-angle-left{
+    font-size: 1.5rem;
+}
+.fa-ellipsis-vertical{
+    font-size: 1.5rem;
+}
+.avatar-description h3{
+    color: white;
+    font-size: 1.4rem;
+    margin-left: -30px;
+}
+.avatar-description p{
+    color: hsl(276, 100%, 81%);
+    margin-left: -30px;
+}
+.phone-top{
+    position: absolute;
+    top: -70px;
+    left: 470px;
+    height: 200px;
+    width: 200px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    z-index: 10;
+}
+.chat-left{
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    height: auto;
+    width: 200px;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    background: #F2E7F7;
+    color: hsl(276, 55%, 52%);
+}
+.chat-right{
+    margin-top: 1.5rem;
+    display: flex;
+    margin-left: 13rem;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.chat-right img{
+    width: 50px;
+    border-radius: 10px;
+}
+.chat-right.text,.chat-right.text-small{
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    color: hsl(271, 15%, 43%);
+}
+.chat-right.text-small{
+    width: 100px;
+    margin-left: 17.5rem;
+}
+.chat-left.gradient{
+    background: linear-gradient(to right, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.chat-left.gradient::before{
+    content: "";
+    height: 10px;
+    width: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.chat-left.gradient h4{
+    font-size: 1.4rem;
+}
+.message{
+    margin-top: 3rem;
+    color: hsl(206, 6%, 79%);
+    margin-left: 2rem;
+    width: 200px;
+    padding: 1rem 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
+.fa-angle-right{
+    position: absolute;
+    bottom: 27px;
+    right: 25px;
+    font-size: 1.5rem;
+    color: white;
+    background: hsl(271, 36%, 24%);
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+}

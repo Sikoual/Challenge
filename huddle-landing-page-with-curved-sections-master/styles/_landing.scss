@@ -1,0 +1,71 @@
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  margin: 0 4rem 0 4rem;
+  @include mobile{
+    margin: 0 2rem 0 2rem;
+    img{
+      width: 40%;
+    }
+  }
+  button{
+    border: 1px solid var(--textPink);
+    background: #FFF;
+    color: var(--textPink);
+    border-radius: 999px;
+    padding: 1rem 3rem;
+    @include mobile{
+      padding: 1rem 2rem;
+    }
+  }
+}
+.landing{
+  min-height: 90vh;
+  margin: 5rem 4rem 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include mobile{
+    min-height: 75vh;
+    margin: 3rem 2rem 0 2rem;
+    text-align: center;
+  }
+  h1{
+    font-size: 4rem;
+    color: var(--titleColor);
+    @include mobile{
+      font-size: 3rem;
+    }
+  }
+  p{
+    width: 40%;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 2rem 0;
+    @include mobile{
+      width: 80%;
+      text-align: start;
+    }
+  }
+  button{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 999px;
+    padding: 2rem 7rem;
+    margin: 2rem 0 5rem 0;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    &:hover{
+      background: hsl(321, 100%, 78%);
+    }
+  }
+  img{
+    width: 75%;
+  }
+}
